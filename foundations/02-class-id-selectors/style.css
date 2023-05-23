@@ -1,0 +1,27 @@
+.odd {
+    background-color: rgb(255, 165, 132);
+    font-family: "Verdana", "Deja-Vu Sans", "sans-serif";
+}
+
+#num-2 {
+    color: hsl(251, 100%, 50%);
+    font-size: 36px;
+}
+
+.font-24px {
+    font-size: 24px;
+}
+
+/*
+    In the id selector 'num-4' below, we could have also
+    added a rule to set the font size to 24px.
+
+    However, since the elements 'Number 3' and 'Number 4'
+    in the HTML file share the same font size, we reused
+    the 'font-24px' class above to help reduce
+    duplicate code.
+*/
+#num-4 {
+    background-color: #00cc00;
+    font-weight: bold;
+}
